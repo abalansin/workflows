@@ -1,7 +1,6 @@
 # Objective: This code checks the CSV files contained in the "csv_directory" path, analyzes the "ID" column,
 # and for each value in this column, it creates a new CSV file in the "output_directory" folder with only the data of the analyzed "ID",
-# already removing those that are UNDEFINED, those with yield less than or equal to zero, and the condditions indicated in line 45.
-# Step 1
+# already removing those that are UNDEFINED, those with yield less than or equal to zero, and the condditions indicated.
 
 import csv
 import os

@@ -39,10 +39,10 @@ def operationweather(token, id, name, start_date, end_date, start_hour, end_hour
                 count += len(valid_data)
         start_date = temp_end_date + timedelta(days=1)
 
-    if tipo == 3 and count > 0 and opcao != 1: #different from accumulated solar radiation
+    if tipo == 3 and count > 0 and opcao != 1: #different from average solar radiation
         sum /= count
 
-    if tipo == 3 and opcao == 1: #accumulated solar radiation
+    if tipo == 3 and opcao == 1: #average solar radiation
         sum /= 12
         days_in_period = ((end - start).days)+1
         sum = sum/days_in_period

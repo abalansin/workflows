@@ -3,7 +3,7 @@
 import os
 
 # Set the directory containing the shapefiles
-folder_path = r"C:\Users\alice.balansin\OneDrive - Amaggi Corp\Documentos\Mapa de Produtividade\Algodão\22122\Talhaodados\Pioneira"
+folder_path = r" "
 
 # Loop through each file in the directory
 for filename in os.listdir(folder_path):
